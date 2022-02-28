@@ -58,7 +58,10 @@ a{
 
 /* Immagini e descrizione */
 
-                /* fare che immagini siano più centrate */
+.images img{
+    width: 49%;
+    height: 440px;
+}
 
 .description{
     font-size: 0.7rem;
@@ -76,6 +79,10 @@ ul {
 }
 
 /* Tabella */
+table{
+    border-collapse:collapse;
+}
+
 th{
     color: white;
     width: 33%;
@@ -94,16 +101,18 @@ td{
 /* Correlati */
 .correlato{
     color: white;
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     font-weight: bold;
     margin-bottom: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
 }
 .correlato.testo{
     color: rgb(157, 157, 157);
     width: auto;
     height: auto;
-
+    padding: 0;
 }
 .correlato.uno{
     background-image: url(../img/monitor.jpg);
