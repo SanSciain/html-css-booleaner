@@ -2,5 +2,73 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
 }
+
+/* Header */
+#banner{
+    width: 100vw;
+    height: 90px;
+    background-image: url("../img/pattern.png");
+    background-color: rgb(76, 163, 255);
+    background-size: 23%;
+    position: relative;
+}
+
+#logo{
+    height: 40%;
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+}
+
+header{
+    margin-bottom: 20px;
+}
+
+
+/* Main */
+main{
+    margin: 10px;
+}
+
+.margin-top-bot-20px{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* Titolo e sottotesto */
+main h1{
+    font-size: 2rem;
+}
+
+.sottotesto{
+    color: rgb(157, 157, 157);
+}
+
+a{
+    text-decoration: none;
+    color: rgb(80, 188, 235);
+}
+
+.sottotesto.data{
+    font-size: 0.7rem;
+}
+
+/* Immagini e descrizione */
+
+                /* fare che immagini siano più centrate */
+
+.description{
+    font-size: 0.7rem;
+}
+
+/* Paragrafi primo e secondo*/
+em{
+    font-style: normal;
+    background-color: yellow;
+}
+
+
 
